@@ -106,16 +106,6 @@ def main():
             st.write("Recall: ", recall_score(y_test, y_pred, labels=class_names).round(2))  
             plot_metrics(metrics) 
 
-
-
-
-
-
-
-
-
-
-
     if st.sidebar.checkbox("Show Raw Data", False):
         st.subheader("Mushroom Data Set (Classification)")
         st.write(df)
