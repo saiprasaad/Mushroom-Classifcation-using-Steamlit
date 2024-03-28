@@ -1,4 +1,5 @@
 # Mushroom Classification Web App
+https://mushroom-classification-using-machine-learning.streamlit.app/
 
 This is a web application developed using Streamlit for binary classification of mushrooms into edible or poisonous categories.
 
@@ -23,3 +24,5 @@ The application uses the 'mushrooms.csv' dataset, which contains various feature
 ## Development
 - **Language**: Python
 - **Libraries**: Streamlit, Pandas, NumPy, Scikit-learn
+
+*This project was explained in Coursera Guided Project.*
