@@ -12,6 +12,7 @@ from sklearn.metrics import precision_score, recall_score
 def main():
     st.title('Binary Classification Web App')
     st.sidebar.title('Binary Classification Web App')
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.markdown("Are your mushtrooms edible or poisonous 🍄")
     st.sidebar.markdown("Are your mushtrooms edible or poisonous 🍄")
 
